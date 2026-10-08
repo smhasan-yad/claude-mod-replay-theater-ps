@@ -1,0 +1,13 @@
+{
+    "name":  "claude-mod-replay-theater-ps",
+    "owner":  {
+                  "name":  "Hasan"
+              },
+    "plugins":  [
+                    {
+                        "description":  "Step through every file change of the last turn, one diff at a time: Edit/Write edits plus files changed by PowerShell and Bash commands. Based on Anthropic\u0027s Replay Theater sample (Apache-2.0).",
+                        "name":  "replay-theater-ps",
+                        "source":  "./"
+                    }
+                ]
+}
